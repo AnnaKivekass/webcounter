@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.3 on linux)" generated="2025-11-16T17:48:03.661967" rpa="false" schemaversion="5">
+<suite id="s1" name="Intro" source="/home/aokiveka/webcounter/intro.robot">
+<test id="s1-t1" name="Tervehdi Nimella" line="9">
+<kw name="Tervehdi">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-11-16T17:48:03.700428" level="INFO">Hei, Maija!</msg>
+<arg>${TERVEHDYS}, ${nimi}!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-11-16T17:48:03.700139" elapsed="0.000388"/>
+</kw>
+<arg>${NIMI}</arg>
+<status status="PASS" start="2025-11-16T17:48:03.699424" elapsed="0.001215"/>
+</kw>
+<status status="PASS" start="2025-11-16T17:48:03.698551" elapsed="0.002273"/>
+</test>
+<doc>Muuttujat ja omat avainsanat</doc>
+<status status="PASS" start="2025-11-16T17:48:03.664092" elapsed="0.037199"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Intro" id="s1" pass="1" fail="0" skip="0">Intro</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
